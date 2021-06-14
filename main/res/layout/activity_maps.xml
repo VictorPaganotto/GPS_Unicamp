@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        tools:context=".MapsActivity" />
+
+    <Button
+        android:id="@+id/tocarsom"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#ffffff"
+        android:text="Tocar Som"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        app:cornerRadius="100dp"
+        app:iconPadding="20dp"
+        app:strokeColor="#ffffff" />
+    <Button
+        android:id="@+id/voltar"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#ffffff"
+        android:text="Voltar"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        app:cornerRadius="100dp"
+        app:iconPadding="20dp"
+        app:strokeColor="#ffffff" />
+
+</LinearLayout>
